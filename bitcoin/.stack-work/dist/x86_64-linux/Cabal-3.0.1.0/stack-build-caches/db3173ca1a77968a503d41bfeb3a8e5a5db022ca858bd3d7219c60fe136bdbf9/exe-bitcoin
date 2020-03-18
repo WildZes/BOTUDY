@@ -3,14 +3,14 @@
   size: 10
   modtime: 1584553611
 /home/captain/haskell_code/FSD/BOTUDY/bitcoin/package.yaml:
-  hash: ad50b0eb1821d7ad3f90ca17ae5d88da21bdc87898da87225fc16b23b06b1dc2
-  size: 473
-  modtime: 1584553611
+  hash: 518ac474024b6ff4e762dbb8d7fac8d0e575965722073ec8ae215af9f731a3b7
+  size: 538
+  modtime: 1584560360
 /home/captain/haskell_code/FSD/BOTUDY/bitcoin/bitcoin.cabal:
-  hash: 82056f957e427a3fe63966138f3fec77fa6d02796201bbb7696153624996a401
-  size: 728
-  modtime: 1584553611
+  hash: 4f1a7a84b809570438b145caa5471e1c856814d9d95bab5cdf8b059c87995d6b
+  size: 803
+  modtime: 1584560379
 /home/captain/haskell_code/FSD/BOTUDY/bitcoin/src/Main.hs:
-  hash: 109c45ae3c0d66457fe5b0ad63de9c0021f10b00bdf710dc659d945d3e2e4d28
-  size: 68
-  modtime: 1584553611
+  hash: 69d435af34f24f5ff927def3dac0e86d2c1e3e794b9056e0df3bad213280666e
+  size: 848
+  modtime: 1584564871

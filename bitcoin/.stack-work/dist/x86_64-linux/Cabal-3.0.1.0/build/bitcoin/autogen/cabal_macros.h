@@ -22,6 +22,61 @@
   (major1) == 4 && (major2) == 13 && (minor) <= 0)
 #endif /* MIN_VERSION_base */
 
+/* package bytestring-0.10.10.0 */
+#ifndef VERSION_bytestring
+#define VERSION_bytestring "0.10.10.0"
+#endif /* VERSION_bytestring */
+#ifndef MIN_VERSION_bytestring
+#define MIN_VERSION_bytestring(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  10 || \
+  (major1) == 0 && (major2) == 10 && (minor) <= 10)
+#endif /* MIN_VERSION_bytestring */
+
+/* package http-conduit-2.3.7.3 */
+#ifndef VERSION_http_conduit
+#define VERSION_http_conduit "2.3.7.3"
+#endif /* VERSION_http_conduit */
+#ifndef MIN_VERSION_http_conduit
+#define MIN_VERSION_http_conduit(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  3 || \
+  (major1) == 2 && (major2) == 3 && (minor) <= 7)
+#endif /* MIN_VERSION_http_conduit */
+
+/* package lens-4.18.1 */
+#ifndef VERSION_lens
+#define VERSION_lens "4.18.1"
+#endif /* VERSION_lens */
+#ifndef MIN_VERSION_lens
+#define MIN_VERSION_lens(major1,major2,minor) (\
+  (major1) <  4 || \
+  (major1) == 4 && (major2) <  18 || \
+  (major1) == 4 && (major2) == 18 && (minor) <= 1)
+#endif /* MIN_VERSION_lens */
+
+/* package lens-aeson-1.1 */
+#ifndef VERSION_lens_aeson
+#define VERSION_lens_aeson "1.1"
+#endif /* VERSION_lens_aeson */
+#ifndef MIN_VERSION_lens_aeson
+#define MIN_VERSION_lens_aeson(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  1 || \
+  (major1) == 1 && (major2) == 1 && (minor) <= 0)
+#endif /* MIN_VERSION_lens_aeson */
+
+/* package text-1.2.4.0 */
+#ifndef VERSION_text
+#define VERSION_text "1.2.4.0"
+#endif /* VERSION_text */
+#ifndef MIN_VERSION_text
+#define MIN_VERSION_text(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 4)
+#endif /* MIN_VERSION_text */
+
 /* tool alex-3.2.3 */
 #ifndef TOOL_VERSION_alex
 #define TOOL_VERSION_alex "3.2.3"
@@ -155,7 +210,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "bitcoin-0.1.0.0-DrqrFfMLSnMG0UjNi5krQP-bitcoin"
+#define CURRENT_COMPONENT_ID "bitcoin-0.1.0.0-DnGGgwNP8V16GcgEXMmjck-bitcoin"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"
