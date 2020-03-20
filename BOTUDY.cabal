@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: d2e000be7e4f8e0a5426acf1cd3b26c88d3d4f8267f971d6673396019557d32e
+-- hash: 7d2fb6061d4307cd082e98ca2b1841d26b603f615435ce7f54b4a245abb8a7ff
 
 name:           BOTUDY
 version:        0.1.0.0
@@ -34,6 +34,9 @@ library
       src
   build-depends:
       base >=4.7 && <5
+    , bytestring
+    , http-conduit
+    , text
   default-language: Haskell2010
 
 executable BOTUDY-exe
@@ -46,6 +49,9 @@ executable BOTUDY-exe
   build-depends:
       BOTUDY
     , base >=4.7 && <5
+    , bytestring
+    , http-conduit
+    , text
   default-language: Haskell2010
 
 test-suite BOTUDY-test
@@ -59,4 +65,7 @@ test-suite BOTUDY-test
   build-depends:
       BOTUDY
     , base >=4.7 && <5
+    , bytestring
+    , http-conduit
+    , text
   default-language: Haskell2010
